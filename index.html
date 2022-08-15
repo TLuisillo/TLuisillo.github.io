@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--Main CSS-->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>ProyectoBlog.com</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar fixed-top position-sticky navbar-expand-lg navbar-dark bg-dark" id="navigation">
+        <div class="container">
+            <a class="navbar-brand fw-bolder" href="#"><span>TLuisillo_o</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav text-center text-lg-start">
+                    <div class="w-auto"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#general-section">General</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bash-section">Bash</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#web-section" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Web Development
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#html-section">HTML</a></li>
+                            <li><a class="dropdown-item" href="#css-section">CSS</a></li>
+                            <li><a class="dropdown-item" href="#bp5-section">Bootstrap 5</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- HOME -->
+    <div class="container-fluid">
+        <div class="row home justify-content-center align-items-center text-center">
+            <div class="position-sticky  col-12 p-0 m-0">
+                <div class="container "> 
+                    <h1 class="texto-1 text-white py-2 text-muted d-none">Apuntes De Estudio</h1>
+                </div>
+                <div class="ratio ratio-21x9">
+                    <iframe width="460" height="215" src="https://www.youtube.com/embed/1j_NRqp8L0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="landing text-center pt-2">
+                    <h4 class="text-uppercas home-title">Notes / Blog </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTENT -->
+    <!--GENERAL-->
+    <div class="container-fluid">
+        <div class="row">
+            <h1 class="title title1 text-center m-0 " id="general-section">.</h1>
+            <h1 class="title text-center p-2 pt-3 mb-4 text-uppercase shadow-lg">GENERAL
+                <img src="./asssets/general.PNG" alt="genralLogo" width="40px" class="m-0 p-0">
+            </h1>        
+        </div>
+    </div>
+    <!--CARDS-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-5  d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/CapturaG1.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">HackTheBox</h5>
+                        <p class="card-text mb-4">  HTB es una plataforma en línea para practicar tus habilidades en pruebas de penetesting y ciberseguridad. <br><a href="https://www.hackthebox.com/" target="_blank">- https://www.hackthebox.com/</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5  d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturag2.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">BeeCrowd</h5>
+                        <p class="card-text mb-4"> Plataforma para Entrenar algoritmos y retos de programación. <br><a href="https://www.beecrowd.com.br/" target="_blank">- https://www.beecrowd.com.br/</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturag3.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Canales YT Programacion</h5>
+                        <p class="card-text mb-4">- S4vitar - Hola Mundo - Solo Pyhton - Victor Robles WEB - CodigoFacilito - Tech With Tim - Solo Pyhton - Kevin Powell - Pildoras Informaticas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Captura.g4PNG.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">OverTheWire</h5>
+                        <p class="card-text mb-4">Overthewire es un entorno sobre el cual aprender y practicar conceptos de seguridad informática en forma de juegos y niveles <br><a href="https://overthewire.org/" target="_blank">- https://overthewire.org/</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturag5.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Material BP5</h5>
+                        <p class="card-text mb-4">Curso realizado de Bootstrap 5 <br> <a href="https://www.youtube.com/playlist?list=PLUW3XAK9O3HFfc7KryNaE9jsqhmCpbBQi" target="_blank">- https://www.youtube.com/playlist?list=PLUW3XAK9O3HFfc7KryNaE9jsqhmCpbBQi </a>-  (dinora PC)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 ultima d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturag6.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Material Bash</h5>
+                        <p class="card-text mb-4">Curso realizado Bash desde cero <br><a href="https://youtube.com/playlist?list=PLDbrnXa6SAzUsIAqsjVOeyagmmAvmwsG2" target="_blank">- https://youtube.com/playlist?list=PLDbrnXa6SAzUsIAqsjVOeyagmmAvmwsG2 </a>- (dfBastidas)<p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 ultima d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturag7PNG.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Material Bash Scripting</h5>
+                        <p class="card-text mb-4">Curso Realizado de Bash Para Principianteas <br><a href="https://www.youtube.com/watch?v=RUorAzaDftg" target="_blank">- https://www.youtube.com/watch?v=RUorAzaDftg</a> - (S4vitar)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 ultima d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturag7.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Curso CSS</h5>
+                        <p class="card-text mb-4">Curso Completo de CSS desde cero <br><a href="https://www.youtube.com/watch?v=OWKXEJN67FE" target="_blank">- https://www.youtube.com/watch?v=OWKXEJN67FE</a> <br> - (Soy Dalto)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 ultima d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturag8.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Curso HTML</h5>
+                        <p class="card-text mb-4">Curso completo de HTML 5 desde cero <br><a href="https://www.youtube.com/watch?v=MJkdaVFHrto" target="_blank">- https://www.youtube.com/watch?v=MJkdaVFHrto</a> <br> - (HolaMundo)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BASH -->
+    <div class="container-fluid">
+        <div class="row">
+            <h1 class="title title2 text-center" id="bash-section">.</h1>
+            <h1 class="title text-center p-2 pt-3 text-white-50 mb-4 text-uppercase shadow-lg">BASH
+                <img src="./asssets/bash.PNG" alt="genralLogo" width="40px" class="m-0 p-0">
+            </h1>
+        </div>
+    </div>
+    <!--CARDS-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-5  d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturab1.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Conexion SSH</h5>
+                        <p class="card-text mb-4">Este comando nos sirve para acceder de un servidor Linux a otro servidor Linux, para esto digitamos el comando: <br>- SINTAXIS: ssh -p 22 user209@hostname.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturab2.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">XARGS</h5>
+                        <p class="card-text mb-4">Es un comando en Unix y en la mayoría de los sistemas operativos tipo Unix utilizados para construir y ejecutar comandos a partir de la entrada estándar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturab3.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">ls -a</h5>
+                        <p class="card-text mb-4">Este comando nos permite ver los archivos ocultos de un directorio. <br>(Tambien podriamos usar el comando: find . )</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturab4.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Type</h5>
+                        <p class="card-text mb-4">Type se utiliza para mostrar información sobre el tipo de comando. <br>- Podemos usar el comando find y el parametro -type f para filtrar por files, de igual manera el parametro -type d para buscar por directories <br>Con el parametro -name para buscar por nombre </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturab5.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Cat</h5>
+                        <p class="card-text mb-4">El comando cat significa «catenate». Básicamente lo que hace el comando cat es leer datos de archivos y mostrar sus contenidos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturab6.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Env</h5>
+                        <p class="card-text mb-4">Es un comando del sistema operativo Unix. Es usado para mostrar una lista de las variables de entorno y para ejecutar otro programa con las variables de entorno.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturab7.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Hostname</h5>
+                        <p class="card-text mb-4">Usando el comando hostname -I podemos ver la direccion ip de nuestra red.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturab8.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Echo</h5>
+                        <p class="card-text mb-4">Usando el comando echo mostramos en consola alguna cadena.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturab9.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Ping</h5>
+                        <p class="card-text mb-4">Con el comando ping podemos verificar que tenemos conexion a un servidor, a la vez que nos muestra el tiempo de respuesta.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturab10.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Chmod</h5>
+                        <p class="card-text mb-4">El comando chmod se utiliza para cambiar los permisos de lectura, escritura y ejecucion de algun archivo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturab11.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Git Clone</h5>
+                        <p class="card-text mb-4">El comando git clone no sirve para clonar o descargar algun repositorio de github.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HTML -->
+    <div class="container-fluid">
+        <div class="row">
+            <h1 class="title title2 text-center" id="html-section">.</h1>
+            <h1 class="title text-center p-2 pt-3 text-white-50 mb-4 text-uppercase shadow-lg">HTML
+                <img src="./asssets/htmlPNG.PNG" alt="genralLogo" width="40px" class="m-0 p-0">
+            </h1>
+        </div>
+    </div>
+    <!--CARDS-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-5  d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturah1.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Estructura HTML</h5>
+                        <p class="card-text mb-4">Estructura basica de un archivo de tipo html (HyperText Markup Language). <br>Usando el atajo " ! " VisualStudioCode nos crea una estructura basica de html</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturah2.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">DIV</h5>
+                        <p class="card-text mb-4">Este elemento puede dividir tu página web en secciones para que puedas darles propiedades CSS únicas ( encerrar un elemento en una "caja" )</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturah3.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Integrar CSS</h5>
+                        <p class="card-text mb-4">Integrar archivo de tipo stylesheet: <br>El atributo rel define el tipo de relación lógica y href hace referencia al archivo CSS que se va a incrustar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturah4.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Heading</h5>
+                        <p class="card-text mb-4">Es importante utilizar títulos para mostrar la estructura del documento. Los encabezados h1 deben usarse para los encabezados principales, seguidos por los encabezados h2, luego los menos importantes h3, y así sucesivamente.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturah5.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Enlaces</h5>
+                        <p class="card-text mb-4">Etiqueta &lt;a&gt; utilizada para crear hiperenlaces en el documento HTML.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturah6.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Main</h5>
+                        <p class="card-text mb-4">Se usa para definir el contenido principal del documento. Solamente puede existir uno por documento.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>    
+    <!-- CSS -->
+    <div class="container-fluid">
+        <div class="row">
+            <h1 class="title title2 text-center" id="css-section">.</h1>
+            <h1 class="title text-center p-2 pt-3 text-white-50 mb-4 text-uppercase shadow-lg">CSS
+                <img src="./asssets/css.PNG" alt="genralLogo" width="40px" class="">
+            </h1>
+        </div>
+    </div>
+    <!--CARDS-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-5  d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/CapturaC1.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Justify Content</h5>
+                        <p class="card-text mb-4">Tipos de texto justificado con CSS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturac2.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Modelo de Caja</h5>
+                        <p class="card-text mb-4">El modelo de caja CSS es un módulo CSS que define cajas rectangulares, incluyendo sus rellenos y márgenes, que son generadas para los elementos y que se disponen de acuerdo al modelo de formato visual.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturac3.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Display Block/Inline</h5>
+                        <p class="card-text mb-4">block: hace que el comportamiento del elemento sea como un bloque. inline: el elemento se renderizará en línea con otros elementos. inline-block: el elemento tendrá un comportamiento mezcla entre los dos anteriores. <br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturac4.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Hover</h5>
+                        <p class="card-text mb-4">La pseudo-clase :hover de CSS coincide cuando el usuario interactúa con un elemento con un dispositivo señalador, pero no necesariamente lo activa. Generalmente se activa cuando el usuario se desplaza sobre un elemento con el cursor (puntero del mouse).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturac5.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Box Shadow</h5>
+                        <p class="card-text mb-4">La propiedad CSS box-shadow añade efectos de sombra alrededor del marco de un elemento. Se pueden definir múltiples efectos separados por comas. La caja de la sombra se describe por los desplazamientos en X e Y, los radios de desenfoque y dispersión, y el color relativos al elemento.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturac6.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Selectores Css</h5>
+                        <p class="card-text mb-4">El selector Css es el nexo de unión entre la hoja de estilos y los documentos a los que se aplique dicha hoja. <br>  El selector Css es el identificador en la hoja de estilos del elemento o elementos del DOM a los que se aplicarán las declaraciones contenidas en la regla de la que forma parte dicho selector.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>       
+    <!-- Bootsrap5 --> 
+    <div class="container-fluid">
+        <div class="row">
+            <h1 class="title title2 text-center" id="bp5-section">.</h1>
+            <h1 class="title text-center p-2 pt-3 text-white-50 mb-4 text-uppercase shadow-lg">Bootstrap 5
+                <img src="./asssets/bp5.PNG" alt="genralLogo" width="40px" class="m-0 p-0">
+            </h1>
+        </div>
+    </div>
+    <!--CARDS-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-5  d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturabp1.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Bootsrap5</h5>
+                        <p class="card-text mb-4">Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web. <br>-Documentacion Oficial: <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/" target="_blank">https://getbootstrap.com/</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturabp2.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Colores (fondo)</h5>
+                        <p class="card-text mb-4">Bootstrap tiene en un amplio sistema de colores que le dan estilos a los componentes. Esto permite una personalización y ampliación más completa para cualquier proyecto.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturabp3.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Container</h5>
+                        <p class="card-text mb-4">Los contenedores son usados para rellenar el contenido dentro de ellos, y existen dos clases de contenedores disponibles. . container: provee un contenedor responsive de ancho fijo. container-fluid: provee un contenedor responsive que utilizará todo el ancho de la pantalla.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturabp4.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Float</h5>
+                        <p class="card-text mb-4">Estas clases de utilidad hacen flotar un elemento a la izquierda o a la derecha, o desactivan la flotación, basándose en el tamaño actual de la ventana gráfica utilizando la propiedad CSS float.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturabp5.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Cards</h5>
+                        <p class="card-text mb-4">Una tarjeta es un contenedor de contenido flexible y extensible. Incluye opciones para encabezados y pies de página, una amplia variedad de contenido, colores de fondo contextuales y potentes opciones de visualización.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturabp6.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Carousel</h5>
+                        <p class="card-text mb-4">El carrusel es un pase de diapositivas para recorrer una serie de contenidos, construido con transformaciones CSS 3D y un poco de JavaScript. Funciona con una serie de imágenes, texto o marcas personalizadas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturabp6.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Button</h5>
+                        <p class="card-text mb-4">Bootstrap tiene estilos de botones personalizados para acciones en formularios, diálogos y más, con soporte para múltiples tamaños, estados y más...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturabp7.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">Navbar</h5>
+                        <p class="card-text mb-4">Una barra de navegación es una sección de una interfaz gráfica de usuario destinada a ayudar a los visitantes a acceder a la información.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5 d-flex align-items-stretch">
+                <div class="card">
+                    <img src="./asssets/Capturabp8.PNG" class="card-img-top" alt="Card Image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-center">BreakPoints</h5>
+                        <p class="card-text mb-4">BreakPoints son anchos personalizables que determinan cómo se comporta el diseño responsivo en función del tamaño del dispositivo o de la ventana gráfica en Bootstrap.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+
+<!-- CONTAACTO -->
+<div class="container-fluid contact">
+    <div class="container" id="secContact">
+        <section class="row justify-content-center pt-4">
+          <div class="col-9 col-lg-7 bg-white text-center py-4 px-3 shadow position-relative photo-frame">
+            <p class="h6 fw-light">
+              Correo de Contacto:
+            </p>
+            <a href="mailto:mtzlumbrerasl@gmail.com" class="text-decoration-none text-mail">
+                mtzlumbrerasl@gmail.com
+            </a>
+          </div>
+        </section>
+        <!--NavBar-->
+        <div class="row justify-content-center text-center ">
+          <!--SOCIALES-->
+          <div class="icons-social pt-4">
+            <!--F  INST-->
+            <a href="https://www.instagram.com/tluisillo_o/" target="_blank" class="icono"><img src="./asssets/icons8-instagram.svg" alt="instagram"></a>
+            <!--GITHUB-->
+            <a href="https://github.com/TLuisillo" target="_blank" class="icono mx-4 "><img src="./asssets/icons8-github.svg" alt="github"></a>
+            <!--TELE-->
+            <a href="https://t.me/TLuisillo" target="_blank" class="icono"><img src="./asssets/icons8-telegram-app.svg" alt="telegram"></a>
+          </div>
+        </div>
+      </div>
+    
+      <!--FOOTER-->
+      <footer class="derechos text-center p-3 text-white-50 " id="contacto">
+        <span class="letra">&#169; </span>TLuisillo_o 2022 - All rights reserved
+      </footer>
+</div>
+
+    <!--Bootstrap JS-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
